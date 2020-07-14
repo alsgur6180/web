@@ -1,0 +1,17 @@
+h1{
+  font-family: monospace;
+  margin : 0;
+  font-weight: bold;
+  display: inline;
+}
+ul{
+  list-style: none;
+
+}
+div.story li{
+  margin : 10px;
+  float:left;
+}
+div.timeline li{
+  display: block;
+}
