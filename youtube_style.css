@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+a{
+  text-decoration: none;
+  color : black;
+}
+
+p2 {
+  font-size: 8px;
+
+}
+.videoset {
+  display: inline-block;
+}
