@@ -1,11 +1,34 @@
+
 header {
     display: flex;
-    margin-bottom: 0px;
+    justify-content: space-between;
+    border-bottom : 1px solid lightgray;
+    padding : 5px;
+    margin : 5px;
+    margin-bottom : 20px;
+}
+header .hd_icons{
+    display : flex;
+    justify-content: space-between;
+}
+.story {
+    width : 600px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom : 20px;
+    border : 1px solid lightgray;
 }
 .story>img{
     width:56px ;
     height: 56px;
     border-radius: 50%;
+    border : 2px solid palevioletred;
+}
+.feed {
+    width : 600px;
+    border : 1px solid lightgray;
+    padding : 10px;
 }
 
 .feed>.profile{
