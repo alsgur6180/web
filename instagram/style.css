@@ -7,7 +7,16 @@ header {
     margin : 5px;
     margin-bottom : 20px;
 }
-header .hd_icons{
+header>.main_logo{
+    font-size : 20px;
+}
+
+header>.search>input{
+    width : 140%;
+    text-align: center;
+}
+header>.hd_icons{
+    width: 25%;
     display : flex;
     justify-content: space-between;
 }
@@ -19,7 +28,7 @@ header .hd_icons{
     margin-bottom : 20px;
     border : 1px solid lightgray;
 }
-.story>img{
+.story>.stories>img{
     width:56px ;
     height: 56px;
     border-radius: 50%;
@@ -46,6 +55,10 @@ header .hd_icons{
 }
 .feed>.fd_icons{
     display:flex;
+}
+.feed>.profile>.fd_name{
+    padding-top : 3px;
+    padding-left: 13px;
 }
 .feed>.comment{
     display:flex;
