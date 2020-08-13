@@ -34,32 +34,45 @@ header>.hd_icons{
     border-radius: 50%;
     border : 2px solid palevioletred;
 }
-.feed {
+.story{
+    margin-left: 300px;
+}
+main{
+    
+    margin-left: 300px;
+}
+main>.feed {
     width : 600px;
     border : 1px solid lightgray;
     padding : 10px;
 }
 
-.feed>.profile{
+main>.feed>.profile{
     display: flex;
 }
-.feed>.profile>.fd_logo>img{
+main>.feed>.profile>.fd_logo>img{
     width : 32px;
     height : 32px;
     border-radius: 50%;
     border : 2px solid palevioletred;
 }
-.feed>.fd_img>img{
+main>.feed>.fd_img>img{
     width : 600px;
     height : 600px;
 }
-.feed>.fd_icons{
+main>.feed>.fd_icons{
+    width 300px;
     display:flex;
+    justify-content: space-around;
 }
-.feed>.profile>.fd_name{
+main>.feed>.profile>.fd_name{
     padding-top : 3px;
     padding-left: 13px;
 }
-.feed>.comment{
+main>.feed>.comment{
     display:flex;
+}
+aside{
+    margin-top: 0px;
+    display: inline;
 }
